@@ -1,0 +1,26 @@
+{
+  "name": "js-project-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Julio L. Muller",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "development": "npm run dev",
+    "watch": "webpack --mode=development -w",
+    "prod": "webpack --mode=production",
+    "production": "npm run prod",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@lacussoft/eslint-config": "^1.0.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.1",
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "webpack": "^5.10.2",
+    "webpack-cli": "^4.2.0"
+  }
+}
