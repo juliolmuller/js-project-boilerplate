@@ -11,7 +11,8 @@ module.exports = {
   ignorePatterns: [
     'build/',
     'dist/',
-    '!.babelrc*',
+    '**/*.d.ts',
+    '!.babelrc.js',
   ],
   parserOptions: {
     ecmaVersion: 2018,
