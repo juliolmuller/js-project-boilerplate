@@ -1,7 +1,7 @@
 
 module.exports = {
+  target: ['web', 'es5'],
   entry: './src/index.js',
-  // entry: ['@babel/polyfill', './src/index.js'],
   output: {
     path: `${__dirname}/build/`,
     filename: 'bundle.js',
