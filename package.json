@@ -1,6 +1,6 @@
 {
   "name": "js-project-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Julio L. Muller",
   "main": "build/index.js",
